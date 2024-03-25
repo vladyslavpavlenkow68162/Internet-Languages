@@ -197,7 +197,7 @@ body{
   top: 391px;
   left: 120px;
   gap: 0px;
-  border-radius: 40px 0px 0px 0px;
+  border-radius: 40px 40px 40px 40px;
   opacity: 0px;
   
   }
@@ -264,3 +264,55 @@ transition: .3s ease-in-out;
 .grid figure:hover img {
   opacity: .5;
 }
+
+.highlight h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.highlight p {
+  text-align: center;
+  padding: 40px;
+}
+
+.grid-our img {
+  width: 400px;
+  height: 390px;
+  gap: 0px;
+  border-radius: 40px 40px 40px 40px;
+  opacity: 0px;
+  
+
+}
+
+.grid-our {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-column-gap: 60px;
+  grid-row-gap: 1px;
+  margin-left: 200px; 
+} 
+
+.grid-our h2 {
+  text-align: center;
+}
+
+
+.see-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttonblue {
+
+      background-color: #3461FF;
+      color: #fff;
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      border-radius: 5rem;
+      text-decoration: none;
+      border: none;
+
+}
+
