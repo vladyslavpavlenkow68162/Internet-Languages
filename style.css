@@ -306,13 +306,11 @@ transition: .3s ease-in-out;
 }
 
 .buttonblue {
-
       background-color: #3461FF;
       color: #fff;
       padding: 1rem 1.5rem 1rem 1.5rem;
       border-radius: 5rem;
       text-decoration: none;
       border: none;
-
 }
 
