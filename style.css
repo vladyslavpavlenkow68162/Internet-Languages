@@ -245,3 +245,22 @@ body{
   #ruler {
     border-radius: 50%;
   }
+
+  figure {
+    width: 272px;
+  height: 130px;
+    margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.grid figure img {
+  opacity: 1;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+
+.grid figure:hover img {
+  opacity: .5;
+}
