@@ -1,235 +1,7 @@
 body{
-<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
 }
 #header{
-=======
-    font-family: "Open Sans", sans-serif;
-  }
-  #header{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-  }
-  
-  #menu{
-      display: flex;
-      gap: 1.2rem;
-      list-style: none;
-  }
-  
-  #menu a{
-      text-decoration: none;
-      color: #000;
-      font-weight: 500;
-  }
-  
-  a:hover {
-      font-size: large;
-    }
-  
-  .btnBlue{
-      background-color: #3461FF;
-      color: #fff;
-      padding: 1rem 1.5rem 1rem 1.5rem;
-      border-radius: 5rem;
-      text-decoration: none;
-      border: none;
-  }
-  
-  .btnBlue:hover {
-      background-color: #3399FF;
-      color: white;
-    }
-  
-  #hero{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-      align-items: center;
-  }
-  
-  #hero h1{
-      font-size: 6rem;
-  }
-  
-  #companies h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  #hero p{
-      font-size: 1.5rem;
-      color: rgba(0,0,0, 0.6)
-  }
-  
-  #hero img{
-      max-width: 100%;
-  }
-  
-  .mainInput{
-      border-radius: 6rem;
-      padding: 1.2rem 1rem 1.2rem 1rem;
-      border: 1px solid rgba(0,0,0,0.2);
-      color: #aaa;
-      background-color: #fafafa;
-      margin-right: 1rem;
-  }
-  
-  
-  footer {
-      display: flex;
-    width: 100%;
-    height: 119px;
-    background: #000000;
-    position: relative;
-    font-family: "General Sans Variable";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #ffffff;
-    }
-  
-  
-  .footer-paragraph {
-      position: absolute;
-      display: flex;
-      flex-direction: row;
-      width: 297px;
-      height: 20px;
-      top: 50px;
-      left: 1043px;
-      gap: 125px;
-    }
-    
-    .Use {
-      width: 84px;
-      height: 20px;
-    }
-    
-    .Privacy {
-      width: 88px;
-      height: 20px;
-    }
-    
-    .Rights {
-      position: absolute;
-      width: 272px;
-      height: 20px;
-      top: 50px;
-      left: 100px;
-      color: #ffffff;
-    }
-  
-    footer p:hover {
-      font-size: 15px;
-  
-    }
-  
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(5, 150px);
-      grid-column-gap: 60px;
-      grid-row-gap: 1px;
-      margin-left: 200px; 
-    } 
-  
-  
-    #commitments {
-      padding: 50px 0;
-      background-color: #f9f9f9;
-      display: flex; 
-      justify-content: space-between; 
-    }
-    
-    .commitments-left {
-      width: 45%; 
-    }
-    
-    .commitments-left .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); 
-      gap: 20px; 
-      justify-content: center;
-      align-items: center; 
-      text-align: center;
-    }
-    
-    .commitment-text {
-      width: 45%; 
-    }
-    
-    .commitment-text p {
-      margin-bottom: 20px; 
-    }
-    
-    #commitments .learn-more {
-      display: block; 
-      text-align: left; 
-      color: #007bff; 
-      text-decoration: none;
-      font-family:Arial, Helvetica, sans-serif;
-    }
-    
-    #commitments .learn-more:hover {
-      text-decoration: underline; 
-    }
-  
-  .commitment-text h1 {
-      font-size: 2rem;
-  }
-  
-  .works-container {
-    display: flex; 
-    align-items: center; 
-  
-  }
-  
-  .works-left {
-    width: 45%;
-  
-  }
-  
-  .works-right {
-    width: 45%;
-  }
-  
-  .works-left img {
-    width: 487px;
-  height: 311px;
-  top: 391px;
-  left: 120px;
-  gap: 0px;
-  border-radius: 40px 40px 40px 40px;
-  opacity: 0px;
-  
-  }
-  
-  .works-left h2 {
-    font-family: General Sans Variable;
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 86.4px;
-  letter-spacing: -1px;
-  text-align: left;
-  
-  }
-  
-  .works-left p {
-    font-family: General Sans Variable;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 36px;
-  text-align: left;
-  color: #00000099;
-  
-  }
-  
-  .works-right {
-    width: 20%;
->>>>>>> ff86610eefa703ab3ed78fed8acfb426fd3d4a49
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -380,7 +152,6 @@ footer {
     text-align: center;
   }
   
-<<<<<<< HEAD
   .commitment-text {
     width: 45%; 
   }
@@ -486,29 +257,11 @@ overflow: hidden;
 
 .grid figure img {
 opacity: 1;
-=======
-  #ruler {
-    border-radius: 50%;
-  }
-
-  figure {
-    width: 272px;
-  height: 130px;
-    margin: 0;
-  padding: 0;
-  background: #fff;
-  overflow: hidden;
-}
-
-.grid figure img {
-  opacity: 1;
->>>>>>> ff86610eefa703ab3ed78fed8acfb426fd3d4a49
 -webkit-transition: .3s ease-in-out;
 transition: .3s ease-in-out;
 }
 
 .grid figure:hover img {
-<<<<<<< HEAD
 opacity: .5;
 }
 
@@ -530,34 +283,10 @@ gap: 0px;
 border-radius: 40px 40px 40px 40px;
 opacity: 0px;
 
-=======
-  opacity: .5;
-}
-
-.highlight h2 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.highlight p {
-  text-align: center;
-  padding: 40px;
-}
-
-.grid-our img {
-  width: 400px;
-  height: 390px;
-  gap: 0px;
-  border-radius: 40px 40px 40px 40px;
-  opacity: 0px;
-  
->>>>>>> ff86610eefa703ab3ed78fed8acfb426fd3d4a49
 
 }
 
 .grid-our {
-<<<<<<< HEAD
 display: grid;
 grid-template-columns: repeat(3, 370px);
 grid-column-gap: 60px;
@@ -567,22 +296,10 @@ margin-left: 200px;
 
 .grid-our h2 {
 text-align: center;
-=======
-  display: grid;
-  grid-template-columns: repeat(3, 370px);
-  grid-column-gap: 60px;
-  grid-row-gap: 1px;
-  margin-left: 200px; 
-} 
-
-.grid-our h2 {
-  text-align: center;
->>>>>>> ff86610eefa703ab3ed78fed8acfb426fd3d4a49
 }
 
 
 .see-button {
-<<<<<<< HEAD
 display: flex;
 justify-content: center;
 text-align: center;
@@ -625,19 +342,3 @@ th {
 .green {
   color: #00FF00;
 }
-=======
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.buttonblue {
-      background-color: #3461FF;
-      color: #fff;
-      padding: 1rem 1.5rem 1rem 1.5rem;
-      border-radius: 5rem;
-      text-decoration: none;
-      border: none;
-}
-
->>>>>>> ff86610eefa703ab3ed78fed8acfb426fd3d4a49
